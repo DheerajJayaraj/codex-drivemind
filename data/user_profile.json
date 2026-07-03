@@ -1,0 +1,29 @@
+{
+    "Dad": {
+        "preferred_temp": 21.0,
+        "drive_mode": "Sport",
+        "favorite_music": "A.R. Rahman Hits",
+        "avoid_tolls": true,
+        "commute_time": "08:30 AM to Office",
+        "seat_position": "Memory 1",
+        "driving_habits": "Prefers dynamic sporty driving, stops for tea after 150 km"
+    },
+    "Mom": {
+        "preferred_temp": 23.0,
+        "drive_mode": "Comfort",
+        "favorite_music": "Acoustic Pop",
+        "avoid_tolls": false,
+        "commute_time": "09:00 AM to Design Studio",
+        "seat_position": "Memory 2",
+        "driving_habits": "Prefers smooth eco driving, avoids highways when rainy"
+    },
+    "Child": {
+        "preferred_temp": 22.0,
+        "drive_mode": "Eco",
+        "favorite_music": "Disney Hits",
+        "avoid_tolls": false,
+        "commute_time": "None",
+        "seat_position": "Rear Right",
+        "driving_habits": "Requires child lock active, enjoys rear seat entertainment"
+    }
+}

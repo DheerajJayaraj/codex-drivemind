@@ -1,0 +1,50 @@
+Here are the complete step-by-step instructions to run the entire DriveMind Edge AI Car OS setup:                             
+  ──────                                                                                                                        
+  ### Step 1: Ensure Ollama is Running & Models are Pulled                                                                      
+                                                                                                                                
+  Since the AI runs completely locally offline, you must have Ollama running with both the LLM and Embedding models downloaded. 
+                                                                                                                                
+  1. Verify that the Ollama application is running in your system tray.                                                         
+  2. Open a terminal (PowerShell or Command Prompt) and pull the required models:                                               
+    ollama pull phi3:mini                                                                                                       
+    ollama pull nomic-embed-text                                                                                                
+                                                                                                                                
+  ──────                                                                                                                        
+  ### Step 2: Start the FastAPI Backend                                                                                         
+                                                                                                                                
+  The backend server runs the local API endpoints, maintains simulator state/JSON memory, and manages document searches (RAG)   
+  using ChromaDB.                                                                                                               
+                                                                                                                                
+  1. Open a new terminal in the root project directory ( C:\Users\jayar\local-ai-backend ).                                     
+  2. Run the Python startup script using the project's virtual environment:                                                     
+    .\venv\Scripts\python main.py                                                                                               
+                                                                                                                                
+  │ [!NOTE]                                                                                                                     
+  │ First Boot Initialization: On the very first run, the backend will scan  tata_nexon.pdf  and vectorize it to create         
+  │ data/chroma_db . This will take 1–2 minutes. Subsequent boots will be instant (under 1 second).                             
+                                                                                                                                
+  ──────                                                                                                                        
+  ### Step 3: Run the Flutter Dashboard (Frontend)                                                                              
+                                                                                                                                
+  The frontend dashboard connects to the backend to present the interface.                                                      
+                                                                                                                                
+  1. Open a separate terminal and navigate into the  frontend  folder:                                                          
+    cd frontend                                                                                                                 
+                                                                                                                                
+  2. Run the app on your preferred target platform:                                                                             
+      • For Web Browser (Chrome - Recommended):                                                                                 
+        flutter run -d chrome                                                                                                   
+                                                                                                                                
+      • For Windows Native Desktop App:                                                                                         
+        flutter run -d windows                                                                                                  
+                                                                                                                                
+      • For Android Emulator:                                                                                                   
+      Make sure your emulator is launched, then run:                                                                            
+        flutter run                                                                                                             
+        (The app will automatically route requests to  10.0.2.2:8000  when running on the emulator to safely bridge back to the 
+      host).                                                                                                                    
+                                                                                                                                
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+>
+──────

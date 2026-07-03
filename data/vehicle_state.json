@@ -1,0 +1,28 @@
+{
+    "ac_temp": 24,
+    "fan_speed": 3,
+    "windows_open": false,
+    "doors_locked": true,
+    "hazard_lights": false,
+    "headlights": "Auto",
+    "wipers": "Off",
+    "drive_mode": "Comfort",
+    "music_playing": false,
+    "music_track": "None",
+    "music_playlist": "Favorites",
+    "current_route": "Mechanic",
+    "fuel_level": 15,
+    "battery_level": 45,
+    "tpms_status": "Normal",
+    "tire_pressures": {
+        "FL": 34,
+        "FR": 34,
+        "RL": 32,
+        "RR": 32
+    },
+    "speed": 0,
+    "is_rainy": false,
+    "driver_fatigue_hours": 0,
+    "driver_mood": "Normal",
+    "current_profile": "Dad"
+}

@@ -1,0 +1,14 @@
+TATA NEXON EV (2026) - QUICK REFERENCE GUIDE
+
+SECTION 1: Tire Pressure Monitoring System (TPMS)
+The TPMS warning light illuminates on the dashboard as a yellow icon resembling a flat tire with an exclamation mark. 
+Standard cold tire pressure for the front tires is 34 PSI and rear tires is 32 PSI. 
+If the TPMS light flashes for 1 minute and then stays solid, it indicates a system malfunction requiring sensor recalibration.
+
+SECTION 2: Dashboard Warning Lights
+- Glow Plug Indicator: A coiled wire symbol indicates the battery pre-heating system is active.
+- Tortoise Mode Light: A yellow turtle icon indicates critical battery depletion. Vehicle speed will be capped at 40 km/h.
+
+SECTION 3: Fuse Box Locations
+The interior cabin fuse box is located beneath the steering column, behind the plastic removable panel near the driver's right knee. 
+The main high-amperage fuse box is located in the engine compartment, directly adjacent to the 12V auxiliary battery terminal.
