@@ -1,0 +1,6 @@
+All dependency needed to install in the virtual environment 
+
+python -m venv venv
+venv\Scripts\activate
+
+pip install fastapi uvicorn langchain langchain-community langchain-ollama langchain-chroma ollama chromadb pypdf pydantic python-multipart
